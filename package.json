@@ -1,0 +1,36 @@
+{
+  "name": "nuxt-dynamic-tag-management",
+  "version": "0.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "files": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ktsn/nuxt-dynamic-tag-management.git"
+  },
+  "keywords": [],
+  "author": "katashin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ktsn/nuxt-dynamic-tag-management/issues"
+  },
+  "homepage": "https://github.com/ktsn/nuxt-dynamic-tag-management#readme",
+  "jest": {
+    "transform": {},
+    "testRegex": "/test/.+\\.spec\\.js$"
+  },
+  "scripts": {
+    "lint": "eslint lib test && prettier -l \"{lib,test}/**/*.js\"",
+    "format": "prettier --write \"{lib,test}/**/*.js\"",
+    "prepublishOnly": "npm run lint"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-ktsn": "^1.0.3",
+    "eslint-config-prettier": "^2.9.0",
+    "prettier": "1.11.1"
+  },
+  "dependencies": {
+    "lodash.defaultsdeep": "^4.6.0"
+  }
+}
