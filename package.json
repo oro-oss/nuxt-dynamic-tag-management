@@ -1,14 +1,22 @@
 {
   "name": "nuxt-dynamic-tag-management",
   "version": "0.0.0",
-  "description": "",
+  "description": "Nuxt.js module of Adobe Dynamic Tag Management",
   "main": "lib/index.js",
-  "files": [],
+  "files": [
+    "lib"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ktsn/nuxt-dynamic-tag-management.git"
   },
-  "keywords": [],
+  "keywords": [
+    "Nuxt",
+    "Vue",
+    "Adobe",
+    "Dynamic Tag Management",
+    "DTM"
+  ],
   "author": "katashin",
   "license": "MIT",
   "bugs": {
